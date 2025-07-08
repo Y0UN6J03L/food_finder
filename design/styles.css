@@ -1,0 +1,96 @@
+/* Base styles */
+.search-box {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Button styles */
+.filter-btn {
+    transition: all 0.3s ease;
+}
+.filter-btn.active {
+    background-color: #3b82f6;
+    color: white;
+}
+
+/* Card styles */
+.restaurant-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.restaurant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+/* Map container */
+.map-container {
+    height: 400px;
+    border-radius: 12px;
+}
+
+/* Loading indicator */
+#loading-indicator {
+    display: none;
+}
+
+/* Chip styles */
+.cuisine-chip {
+    transition: all 0.2s ease;
+}
+.cuisine-chip:hover {
+    transform: scale(1.05);
+}
+
+/* Form elements */
+select, input[type="text"] {
+    transition: all 0.2s ease;
+}
+select:focus, input[type="text"]:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .search-box {
+        padding: 2rem 1rem;
+    }
+    .map-container {
+        height: 300px;
+    }
+}
+         .auth-container {
+            max-width: 24rem;
+            width: 100%;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        /* Form inputs */
+        .form-input {
+            width: 100%;
+            padding: 0.5rem 0.75rem;
+            border-radius: 0.375rem;
+            border: 1px solid #d1d5db;
+            transition: all 0.2s ease;
+        }
+
+        /* Form button */
+        .form-btn {
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 0.375rem;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        /* Form link */
+        .form-link {
+            color: #3b82f6;
+            text-decoration: underline;
+            transition: color 0.2s ease;
+        }
+
+ 
